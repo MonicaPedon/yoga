@@ -1,0 +1,153 @@
+body {
+    background-color: #F5B596;
+    color: #5E17EB;
+    font-family: 'poppinsregular', sans-serif;
+    max-width: 1200px; /* serve para limitar a largura do conteúdo */
+    margin: 0 auto; /* centraliza o conteúdo, de der um zoom o conteudo continua no meio*/
+    padding: 15px; /* serve para dar um espaçamento interno */
+}
+
+header {
+    display: flex; /*deixa os elementos mais flexiveis para alinhar */
+    flex-direction: row; /*alinha os elementos em linha */
+    justify-content: space-between; /*alinha os elementos em linha e deixa um espaço entre eles */
+    align-items: center; /*alinha os elementos no centro */
+
+} 
+
+#title {
+    flex-direction: column; /*alinha os elementos em coluna */
+    line-height: 10px; /*serve para dar um espaçamento entre as linhas */  
+}
+
+li {
+    display: inline-block; /*alinha os elementos em linha, vai bloquear as linhas se espalharem */
+    margin: 20px; /*espacamento entre os menus */
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: 200px; /*serve para deixar a fonte mais fina */
+   
+}
+
+a {
+    color: #5E17EB;
+    font-weight: bold; /*serve para deixar a fonte mais grossa */
+    text-decoration: none; /*tira o sublinhado do link */
+    
+}
+
+a:hover {
+    color: #19b9ac ; /*cor do texto do menu ao passar o mouse em cima */
+    transition: 0.3s all; /*serve para fazer a transição de cor do texto ao passar o mouse em cima */
+}
+
+#account-btn {
+    border: 2px solid #19b9ac; /*borda do botão o 2px e a largura da borda*/
+    padding: 10px; /*serve para dar um espaçamento interno */
+    border-radius: 15px;
+}
+
+#account-btn:hover {
+    background-color: #19b9ac ; /*cor do botão ao passar o mouse em cima */
+    color: white; /*cor do texto do botão ao passar o mouse em cima */
+    transition: 0.5s all; /*serve para fazer a transição de cor do texto ao passar o mouse em cima */
+     
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px; /*serve para dar um espaçamento entre o header e o main */
+    /* justify-content: space-between; */
+}
+
+h2 {
+    font-size: 56px; /*tamanho da fonte */
+    line-height: 10px; /*serve para dar um espaçamento entre as linhas */
+    font-family: poppinsmedium , sans-serif; /*fonte da letra */
+    
+}
+
+span { 
+    color: #19b9ac ; /*cor do texto */
+}
+
+p {
+    line-height: 20px; /*serve para dar um espaçamento entre as linhas */
+    max-width: 500px; /*serve para limitar a largura do conteúdo */
+    font-family: poppinslight , sans-serif; /*fonte da letra */
+
+}
+    
+    
+
+#img-ref {
+        float: right;
+        font-size: 10px;
+        color: #9c71f3;
+        
+        
+    }
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%; /*largura do formulario, porque por padrao ele fica 100% o tamanho da div, nesse caso o aside */
+}
+
+form [type="submit"] {
+   height: 50px;
+   width: 50%;
+   background-color: #19b9ac;
+   color: white;
+   font-weight: bold;
+   font: 20px poppinsmedium , sans-serif;
+}
+
+form [type="submit"]:hover {
+   cursor: pointer;
+ }
+
+input {
+    margin-top: 20px; /*serve para dar um espaçamento entre os inputs */
+    height: 20px; /*altura do input */
+    padding: 15px; /*serve para dar um espaçamento interno */
+    border-radius: 20px; /*borda do input */
+    border: none; /*tira a borda do input */
+    font-size: 15px; /*tamanho da fonte */;
+    background-color: whitesmoke;
+}
+
+aside, article {
+    flex: 1;
+    padding: 10px;
+    /* margin-right: 20xp; */
+}
+
+aside {
+    margin-top: 12px;
+}
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+article img {
+    width: 100%; /*largura da imagem */;
+    max-width: 700px;;
+}
+
+
+
+
+
+
+

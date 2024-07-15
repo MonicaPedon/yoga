@@ -1,0 +1,61 @@
+/* Media Queries aqui quando o site chegar a largura de 760px, ele vai aplicar as alteracoes abaixo*/
+@media screen and (max-width: 760px) {
+   header {
+        flex-direction: column; /*Quando a tela chegar a 760px, o header vai mudar a direcao para coluna */
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    main {
+        flex-direction: column;
+        
+    }
+
+    h2 {
+        font-size: 38px;
+        margin-top: 10px;;
+    }
+
+    form {
+        margin: 0 auto; /*serve para centralizar o formulario */
+        width: 100%;
+    
+    }
+    form [type="submit"] {
+        width: 100%;
+    }
+
+    input {
+        align-self: center; /*o input vai se autoalinhar no centro */    
+        width: 95%;
+    }
+
+    img {
+        width: 400px;
+        
+    }
+
+    ul {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        
+    }
+    
+
+    aside {
+        margin-top: 0px;
+    }
+
+
+
+
+
+
+
+
+}
